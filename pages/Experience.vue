@@ -1,12 +1,14 @@
 <template>
-<div>
-<h1></h1>
-</div>  
+<div> 
+</div>
 </template>
-
 <script>
 export default {
-  components: [{ path: '~/components/NavBar'}],
+  components: true,
   layout: 'default'
 }
 </script>
+
+<style>
+
+</style>
