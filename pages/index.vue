@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  components: [{ path: '~/components/NavBar'}],
+  
   layout: 'default'
 }
 </script>

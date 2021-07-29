@@ -4,7 +4,7 @@
 </template>
 <script>
 export default {
-  components: true,
+  
   layout: 'default'
 }
 </script>
