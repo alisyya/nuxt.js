@@ -1,9 +1,9 @@
 <template>
     <div>
-        <nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 shadow sm:items-center w-full">
-  <div class="mb-0 sm:mb-0">
+        <nav class="font-sans flex flex-col h-20 content-center sm:flex-row  sm:justify-between shadow sm:items-center w-full">
+  <div>
     <nuxt-link to="/">
-    <img src="~/assets/logo.png" >
+    <img class="h-12 w-12" clas src="~/assets/logo.png" >
     </nuxt-link>
   </div>
   <div>
@@ -20,3 +20,7 @@ export default {
     
 }
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+</style> 

@@ -1,3 +1,7 @@
+body {
+  height: 3000px;
+}
+
 a.nuxt-link-active {
   font-weight: bold;
 }
@@ -30,7 +34,6 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 li {
@@ -41,6 +44,7 @@ li {
 nav { 
   background-color: #c4c4c4;
   padding: 0 1rem;
+  font-family: 'B612 Mono', monospace;
 } 
 
 

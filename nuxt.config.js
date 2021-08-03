@@ -16,6 +16,8 @@ export default {
     ]
   },
 
+   
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // for global css
@@ -35,7 +37,11 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',  
+    // nuxt.config.js
+    '@nuxtjs/fontawesome',
+    // google font
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -63,5 +69,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
 }
+
+
