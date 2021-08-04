@@ -1,5 +1,5 @@
 <template>
-   <div class="absolute left-6 bottom-24 ">
+   <div class="fixed left-6 bottom-24  ">
      <ul>
        <li><font-awesome-icon :icon="faEnvelope" /></li>
      </ul>

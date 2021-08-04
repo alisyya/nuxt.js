@@ -71,6 +71,12 @@ export default {
   build: {
   },
 
+  googleFonts: {
+    families: {
+      'B612+Mono':true,
+    }
+  }
+
 }
 
 
