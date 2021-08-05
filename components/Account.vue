@@ -1,7 +1,7 @@
 <template>
    <div class="fixed left-6 bottom-24  ">
      <ul>
-       <li><font-awesome-icon :icon="faEnvelope" /></li>
+       <a href="https://github.com/george666-cloud"><li><font-awesome-icon :icon="faEnvelope" /></li></a>
      </ul>
      <ul>
        <li><font-awesome-icon :icon="faGithub" /></li> 

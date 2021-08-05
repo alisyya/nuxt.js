@@ -1,6 +1,6 @@
 <template>
     <div >
-        <nav class="fixed top-0 font-sans flex flex-col h-20 content-center sm:flex-row  sm:justify-between shadow sm:items-center w-full">
+        <nav class="fixed top-0 font-sans flex flex-col h-20 content-center sm:flex-row  sm:justify-between shadow sm:items-center w-full z-20">
   <div>
     <nuxt-link to="/">
     <img class="h-12 w-12" clas src="~/assets/logo.png" >

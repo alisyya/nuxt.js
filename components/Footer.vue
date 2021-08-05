@@ -1,9 +1,9 @@
 <template>
     <footer>
-        <div class="flex justify-center bottom-0 w-full">
-                <!-- <p class="text-sm text-black-700  font-bold ">
+        <div class="justify-center text-center  w-full">
+                <p class="text-sm text-black-700  mb-20 font-bold ">
                     © 2020 by Hamba Allah SWT
-                </p> -->
+                </p>
         </div>    
     </footer>   
 </template>
