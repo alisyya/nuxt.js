@@ -9,9 +9,9 @@
       My Interest Is In Computer Technology, Such As Programming, Therefore I Like To Apply My Knowledge And Explore New Possibilities,I Also Enjoy Working With Teams</p2>
   </div>
   <div class="m-96  flex ">
-    <p2 class="text-center  z-10">
+    <p3 class="text-center  z-10">
     My Life Is Like A Book That They’ve Judging By A Cover But Have Never Took The Time To Fucking Read The Shit 
-    </p2></div>
+    </p3></div>
 <nuxt/>
 </div>  
 </template>
@@ -20,4 +20,13 @@
 export default {
   layout: 'default'
 }
+document.querySelectorAll('a[href^="#"]').forEach(elem => {
+    elem.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(elem.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            offsetTop: 20
+        });
+    });
+});
 </script>

@@ -1,13 +1,13 @@
 
-a.nuxt-link {
+a {
  font-family: 'B612 Mono', monospace;
 }
 a.nuxt-link-active {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 /* exact link will show the primary color for only the exact matching link */
 a.nuxt-link-exact-active {
-  color: #f10b0b;
+  color: #000000;
 }
 
 body {
@@ -40,7 +40,7 @@ li {
   font-size: 1.2rem;
 }
 nav { 
-  background-color: #c4c4c4;
+  background-color: #ffffff;
   padding: 0 1rem;
 } 
 
@@ -52,7 +52,7 @@ a:visited {
 }
 
 a:hover {
-  color: #00c58e;
+  color: #000000;
 }
  p {
   font-family: 'B612 Mono', monospace;
