@@ -7,9 +7,9 @@
     </nuxt-link>
   </div>
   <div>
+    <a href="#div2" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" >About</a>
+    <a href="#div3" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" >Quotes</a>
     <nuxt-link class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" to="/Experience">Experience</nuxt-link>
-    <nuxt-link class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" to="/p2">About</nuxt-link>
-    <nuxt-link class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" to="/p3">Quotes</nuxt-link>
   </div>
 </nav>
     </div>
