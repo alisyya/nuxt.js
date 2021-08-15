@@ -7,8 +7,8 @@
     </nuxt-link>
   </div>
   <div>
-    <a href="#div2" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" >About</a>
-    <a href="#div3" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" >Quotes</a>
+    <a href="#div2" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About</a>
+    <a href="#div3" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Quotes</a>
     <nuxt-link class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2" to="/Experience">Experience</nuxt-link>
   </div>
 </nav>

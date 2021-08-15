@@ -2,7 +2,7 @@
   <div>
     <NavBar/>
     <nuxt/>
-    <Account/>
+    <Icon/>
     <Footer/>  
   </div>
 </template>
