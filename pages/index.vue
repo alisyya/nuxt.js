@@ -2,7 +2,7 @@
 <div>
   <div class="m-60 h-48 flex justify-center items-center ">
     <img class="fixed h-96 w-72" src="~/assets/foto.png">
-    <p1 class=" flex justify-center  z-10">Hello I'm Alif</p1>
+    <p class=" flex justify-center  z-10">Hello I'm Alif</p>
   </div>
   <div>
   <div class="m-96  flex " >
@@ -24,17 +24,7 @@ export default {
 
   layout: 'default',
 
-  mounted() {
-    document.querySelectorAll('a[nuxt-link^="#"]').forEach(elem => {
-    elem.addEventListener('click', e => {
-        e.preventDefault();
-        document.querySelector(elem.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth',
-            offsetTop: 20
-        });
-    });
-});
-  }
+    
 }
 
 

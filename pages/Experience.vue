@@ -11,12 +11,12 @@
   </div>
 
 <div class="mt-28 top-0 h-20 mb-10 text-center">
-  <p1 class="content-center z-10">I Used Multiple Programming Languages </p1>
+  <p class="content-center z-10">I Used Multiple Programming Languages </p>
   <br>
-  <p1 class="content-center z-10">Such As PHP, Javascript, HTML, CSS, VB.NET, And Java</p1>
+  <p class="content-center z-10">Such As PHP, Javascript, HTML, CSS, VB.NET, And Java</p>
   <br>
   <br>
-  <p1 class="content-center z-10">This is some my projects</p1>
+  <p class="content-center z-10">This is some my projects</p>
 </div>
 
 <div class="container mx-auto p-16">
