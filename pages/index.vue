@@ -1,9 +1,11 @@
 <template>
 <div>
-  <div class="m-60 h-48 flex justify-center items-center ">
-    <img class="fixed h-96 w-72" src="~/assets/foto.png">
+<div class="md:flex">
+  <div class="md:flex-shrink-0 ">
+    <img class="h-48  md:w-48 " src="~/assets/foto.png">
     <p class=" flex justify-center  z-10">Hello I'm Alif</p>
   </div>
+</div>
   <div>
   <div class="m-96  flex " >
     <p id="div2" class="text-center z-10" >

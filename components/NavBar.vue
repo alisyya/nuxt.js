@@ -12,14 +12,14 @@
               </div>
               <!-- Primary navbar items -->
               <div class="hidden md:flex items-center space-x-1">
-                <nuxt-link to="" class="py-4 px-2 text-green-500 border-green-500 font-semibold transition duration-300">Home</nuxt-link>
+                <nuxt-link to="" class="py-4 px-2 text-green-500 border-green-500 font-semibold ">Home</nuxt-link>
                 <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
                 <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
                 <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
               </div>
             </div>
             <!-- secondary navbar items -->
-            <div>
+            <div class="hidden md:flex items-center space-x-3">
               <nuxt-link to="" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log in</nuxt-link>
               <nuxt-link to="" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign up</nuxt-link>
             </div>
@@ -44,10 +44,10 @@
         <!-- mobile menu -->
         <div class="hidden mobile-menu">
           <ul class="">
-            <li><nuxt-link to="" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"></nuxt-link></li>
-            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold"></nuxt-link></li>
-            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold"></nuxt-link></li>
-            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold"></nuxt-link></li>
+            <li class="active"><nuxt-link to="" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</nuxt-link></li>
+            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 ">Home</nuxt-link></li>
+            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 ">Home</nuxt-link></li>
+            <li><nuxt-link to="" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 ">Home</nuxt-link></li>
           </ul>
         </div>
       </nav>
@@ -56,7 +56,17 @@
 
 <script>
 export default {
-   
+  setup() {
+    
+  },
+  mounted() {
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  }
+  
 }
 </script>
 
