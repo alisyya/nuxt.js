@@ -7,21 +7,18 @@
               <div>
                 <nuxt-link to="/" class="flex items-center py-4 px-2">
               <img src="~/assets/logo.png" alt="logo" class="h-8 w-8 mr-2" />
-                <span class="font-semibold text-gray-500 text-lg">Navigation</span>
                 </nuxt-link>
               </div>
               <!-- Primary navbar items -->
               <div class="hidden md:flex items-center space-x-1">
                 <nuxt-link to="" class="py-4 px-2 text-green-500 border-green-500 font-semibold ">Home</nuxt-link>
-                <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
-                <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
-                <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Home</nuxt-link>
+                <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">About Me</nuxt-link>
+                <nuxt-link to="" class="py-4 px-2 text-green-500 text-gray-500 font-semibold transition duration-300">Quotes</nuxt-link>
               </div>
             </div>
             <!-- secondary navbar items -->
             <div class="hidden md:flex items-center space-x-3">
-              <nuxt-link to="" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log in</nuxt-link>
-              <nuxt-link to="" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign up</nuxt-link>
+              <nuxt-link to="" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Article</nuxt-link>
             </div>
             <!-- Mobile menu button -->
             <div class="md:hidden flex items-center">
@@ -59,13 +56,13 @@ export default {
   setup() {
     
   },
-  mounted() {
-    const btn = document.querySelector("button.mobile-menu-button");
-    const menu = document.querySelector(".mobile-menu");
-    btn.addEventListener("click", () => {
-      menu.classList.toggle("hidden");
-    });
-  }
+  // mounted() {
+  //   const btn = document.querySelector("button.mobile-menu-button");
+  //   const menu = document.querySelector(".mobile-menu");
+  //   btn.addEventListener("click", () => {
+  //     menu.classList.toggle("hidden");
+  //   });
+  // }
   
 }
 </script>

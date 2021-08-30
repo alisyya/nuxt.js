@@ -10,10 +10,10 @@ a.nuxt-link-exact-active {
   color: #000000;
 }
 
-body {
+/* body {
   font-family:'B612 Mono', monospace;
   margin: 0;
-}
+} */
 
 main {
   margin: 0 auto;
